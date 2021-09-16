@@ -3,7 +3,6 @@ import { Menu } from "antd";
 import { Link } from "react-router-dom";
 import SocialLinks from "../SocialLinks";
 import { getMenuApi } from "../../../api/menu";
-import logoWhite from "../../../assets/img/png/logo-white.png";
 
 import "./MenuTop.scss";
 
@@ -22,11 +21,11 @@ export default function MenuTop() {
 
   return (
     <Menu className="menu-top-web" mode="horizontal">
-      <Menu.Item className="menu-top-web__logo">
+      {/* <Menu.Item className="menu-top-web__logo">
         <Link to={"/"}>
-          <img src={logoWhite} alt="Agustín Navarro Galdon" />
+          <img src={logoWhite} alt="" />
         </Link>
-      </Menu.Item>
+      </Menu.Item> */}
 
       {menuData.map(item => {
         const external = item.url.indexOf("http") > -1 ? true : false;
@@ -46,7 +45,7 @@ export default function MenuTop() {
         );
       })}
 
-      <SocialLinks />
+      {/* <SocialLinks /> */}
     </Menu>
   );
 }

@@ -1,25 +1,21 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import MainBanner from "../components/Web/MainBanner";
-import HomeCourses from "../components/Web/HomeCourses";
-import HowMyCoursesWork from "../components/Web/HowMyCoursesWork";
-import ReviewsCourses from "../components/Web/ReviewsCourses";
+import WhatsappView from "../components/Web/Whatsapp";
 
 export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Agustín Navarro Galdon</title>
+        <title>Home</title>
         <meta
           name="description"
-          content="Home | Web sobre programación"
+          content="Home"
           data-react-helmet="true"
         />
       </Helmet>
+      <WhatsappView />
       <MainBanner />
-      <HomeCourses />
-      <HowMyCoursesWork />
-      <ReviewsCourses />
     </>
   );
 }

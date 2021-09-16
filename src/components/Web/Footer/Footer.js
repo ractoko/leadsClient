@@ -16,18 +16,17 @@ export default function Footer() {
         <Col md={16}>
           <Row>
             <Col md={8}>
-              <MyInfo />
+              {/* <MyInfo /> */}
             </Col>
             <Col md={8}>
-              <NavigationFooter />
+              {/* <NavigationFooter /> */}
             </Col>
             <Col md={8}>
-              <Newsletter />
+              {/* <Newsletter /> */}
             </Col>
           </Row>
           <Row className="footer__copyright">
-            <Col md={12}>© 2019 ALL RIGHTS RESERVED​</Col>
-            <Col md={12}>AGUSTÍN NAVARRO GALDON | DESARROLLADOR WEB</Col>
+            <Col md={12}>© 2021 ALL RIGHTS RESERVED​</Col>
           </Row>
         </Col>
         <Col md={4} />

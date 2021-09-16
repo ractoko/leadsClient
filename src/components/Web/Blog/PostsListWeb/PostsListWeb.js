@@ -42,7 +42,7 @@ export default function PostsListWeb(props) {
   return (
     <>
       <Helmet>
-        <title>Blog de programación | Agustín Navarro Galdon</title>
+        <title>Blog de programación</title>
       </Helmet>
       <div className="posts-list-web">
         <h1>Blog</h1>
